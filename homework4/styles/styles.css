@@ -6,7 +6,12 @@ body {
     height: 1480px;
     width: auto;;
     position: -webkit-sticky;
-    font-family: sans-serif;;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    line-height: 140%;
+    text-align: left;
 }
 
 /* HEADER */
@@ -26,10 +31,11 @@ body {
     height: 107px;
     top: 122px;
     left: 165px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 36px;
     font-style: normal;
-    text-align: justify;
+    text-align: left;
+    line-height: 43px;
     color: #FFFFFF;
 }
 
@@ -42,8 +48,8 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    line-height: 140%;
     text-align: justify;
-    display: inline;
     color: #FFFFFF;
 }
 
@@ -128,8 +134,9 @@ body {
     height: 64px;
     position: absolute;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
+    line-height: 140%;
     text-align: justify;
     display: inline;
     color: #000000;
@@ -173,6 +180,11 @@ input[type="text" i] {
     font-weight: 400;
     font-size: 16px;
     color: rgba(19, 39, 67, 0.5);
+}
+
+::placeholder {
+    color: rgba(19, 39, 67, 0.5);
+    opacity: 1; 
 }
 
 #service {
@@ -375,7 +387,6 @@ button[type="submit" i] {
     height: 31px;
     left: 1028px;
     top: 140px;
-    /* background: url(secure-p-1.png); */
 }
 
 #copyright {
@@ -389,3 +400,5 @@ button[type="submit" i] {
     font-size: 12px;
     color: #101010;
 }
+
+
