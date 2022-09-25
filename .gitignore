@@ -1,5 +1,6 @@
-# .vscode/
-# ./reset.css
-# ./Lato.zip
-
-# ?????
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+Lato.zip

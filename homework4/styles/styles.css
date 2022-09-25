@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 body {
-    width: 100%;
     height: 1480px;
+    width: auto;;
+    position: -webkit-sticky;
+    font-family: sans-serif;;
 }
 
 /* HEADER */
@@ -58,19 +59,19 @@ body {
     top: 357px;
     left: 162px;
     position: relative;
-    margin-right: 25px;
+    margin-right: 23px;
 }
 
 #intro #apple {
     display: inline-block;
     top: 357px;
     position: relative;
-    margin-right: 29px;
+    margin-right: 25px;
 }
 
 #intro #windows {
     display: inline-block;
-    top: 352px;
+    top: 356px;
     position: relative;
 }
 
@@ -171,7 +172,6 @@ input[type="text" i] {
     text-align: left;
     font-weight: 400;
     font-size: 16px;
-    border-radius: 6px;
     color: rgba(19, 39, 67, 0.5);
 }
 
@@ -185,19 +185,6 @@ input[type="text" i] {
     border-radius: 6px;
 }
 
-.chevron {
-    position: absolute;
-width: 14px;
-height: 14px;
-left: 1235px;
-top: 808px;
-
-font-family: 'Segoe MDL2 Assets';
-font-size: 14px;
-line-height: 14px;
-color: rgba(19, 39, 67, 0.5);
-}
-
 select[name="Select Service" i] {
     padding: 21px 31px 20px 31px;
     text-align: left;
@@ -206,6 +193,19 @@ select[name="Select Service" i] {
     color: rgba(19, 39, 67, 0.5);
 }
 
+select {
+    appearance: none;
+    background-image: url('../images/select.svg');
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    background-position-y: 24px;
+}
+
+select:hover {
+    color: rgba(9, 17, 29, 0.5);
+    background-size: 15px 15px;
+
+}
 
 #submit {
     position: absolute;
@@ -228,6 +228,10 @@ button[type="submit" i] {
     font-size: 14px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+#submit:hover {
+    background: #e33849;
 }
 
 
