@@ -3,4 +3,5 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-Lato.zip
+.homework3/images/*
+.homework4/images/*
