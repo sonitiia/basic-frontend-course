@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 1480px;
+    width: auto;;
+    position: -webkit-sticky;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+p {
+    line-height: 140%;
+    text-align: left;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #ED4C5C;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 0px;
+    left: 0px;
+}
+
+#intro h2 {
+    width: 445px;
+    height: 107px;
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal;
+    text-align: left;
+    line-height: 43px;
+    color: #FFFFFF;
+    position: absolute;
+    margin: 122px 830px 271px 165px;
+}
+
+#intro p {
+    width: 445px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 140%;
+    text-align: justify;
+    color: #FFFFFF;
+    position: absolute;
+    margin: 253px 830px 183px 165px;
+}
+
+#intro #google {
+    margin: 357px 1245px 11px 163px;
+    position: absolute;
+}
+
+#intro #apple {
+    margin: 357px 1190px 111px 218px;
+    position: absolute;
+}
+
+#intro #windows {
+    margin: 361px 1143px 115px 273px;
+    position: absolute;
+}
+
+#pictures #Video_bg1 {
+    margin: 116px 216px 117px 841px;;
+    position: absolute;
+    z-index: 0;
+}
+
+#pictures #Video_bg2 {
+    margin: 116px 366px 117px 691px;;
+    position: absolute;
+    z-index: 1;
+}
+
+#pictures #Video_bg3 {
+    margin: 94px 260px 95px 735px;;
+    position: absolute;
+    z-index: 999;
+}
+
+/* MAIN PART */
+
+.body {
+    position: absolute;
+    width: 100%;
+    height: 545px;
+    left: 0px;
+    top: 500px;
+    background: #FFFFFF;
+}
+
+#contacts h2 {
+    width: 445px;
+    height: 107px;
+    font-weight: 600;
+    font-size: 36px;
+    font-style: normal;
+    text-align: left;
+    line-height: 43px;
+    color: #000000;
+    position: absolute;
+    margin: 117px 819px 276px 176px;
+}
+
+#contacts p {
+    width: 434px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+    position: absolute;
+    margin: 213px 830px 223px 176px;
+}
+
+#first {
+    width: 255px;
+    height: 60px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    position: absolute;
+    margin: 117px 450px 323px 735px;
+}
+
+#last {
+    width: 255px;
+    height: 60px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    position: absolute;
+    margin: 117px 165px 323px 1020px;
+}
+
+#number {
+    width: 540px;
+    height: 60px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    position: absolute;
+    margin: 201px 165px 239px 735px;
+}
+
+input[type="text" i] {
+    padding: 21px 31px 20px 31px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(19, 39, 67, 0.5);
+}
+
+::placeholder {
+    color: rgba(19, 39, 67, 0.5);
+    opacity: 1; 
+}
+
+#service {
+    width: 540px;
+    height: 60px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    position: absolute;
+    margin: 285px 165px 155px 735px;
+}
+
+select[name="Select Service" i] {
+    padding: 21px 31px 20px 31px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(19, 39, 67, 0.5);
+
+    appearance: none;
+    background-image: url('../images/select.svg');
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    background-position-y: 24px;
+}
+
+select:hover {
+    background-size: 15px 15px;
+}
+
+#submit {
+    width: 160px;
+    height: 50px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    border-radius: 6px;
+    position: absolute;
+    margin: 372px 545px 78px 735px;
+    padding: 17px, 34px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+#submit:hover {
+    background: #e33849;
+}
+
+/* FOOTER */
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 435px;
+    left: 0px;
+    top: 1045px;
+    background: #FAFAFA;
+}
+
+#one h2 {
+    width: 65px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+    position: absolute;
+    margin: 85px 1209px 328px 166px;
+}
+
+#one p {
+    width: 254px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+    position: absolute;
+    margin: 140px 1020px 241px 166px;
+}
+
+#two h2 {
+    width: 67px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+    position: absolute;
+    margin: 85px 923px 328px 450px;
+}
+
+#two p {
+    width: 254px;
+    height: 114px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #101010;
+    position: absolute;
+    margin: 135px 736px 186px 450px;
+}
+
+#three h2 {
+    width: 101px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+    position: absolute;
+    margin: 85px 605px 328px 734px;
+}
+
+#three #par1 {
+    width: 122px;
+    height: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    position: absolute;
+    margin: 140px 584px 281px 734px;
+}
+
+#three #par2 {
+    width: 96px;
+    height: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    position: absolute;
+    margin: 165px 610px 256px 734px;
+}
+
+#facebook {
+    margin: 199px 692px 222px 734px;
+    position: absolute;
+}
+
+#linkedin {
+    margin: 199px 666px 222px 760px;
+    position: absolute;
+}
+
+#twitter {
+    margin: 199px 640px 222px 786px;
+    position: absolute;
+}
+
+#four h2 {
+    width: 96px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+    position: absolute;
+    margin: 85px 322px 328px 1022px;
+}
+
+#cards {
+    margin: 140px 190px 264px 1022px;
+    position: absolute;
+}
+
+#copyright {
+    width: 155px;
+    height: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    position: absolute;
+    margin: 335px 1124px 86px 161px;
+}
+
+
