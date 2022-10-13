@@ -92,7 +92,7 @@ input[type="search"] {
     padding: 7px;
     color: #9a9a9a;
 
-    background: #444444 no-repeat 8% /10% url(./images/search.png);
+    background: #444444 no-repeat 8% /10% url(../images/search.png);
     background-size: 10px;
     padding-left: 22%;
  }
