@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+* {
+    box-sizing: border-box;
+    color: #6a6a6a;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+    margin: 0;
+}
+
+body {
+    background-color: #2c2c2c;
+}
+
+table {
+    background-color: #2f2f2f;
+    border: 1px solid #6a6a6a; 
+    border-radius: 3px;
+    width: 70%;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-collapse: collapse;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #6a6a6a; 
+    /* this draws the table 'border' */
+}
+
+.tableOne {
+    margin-top: 15%;
+}
+
+th, td {
+    height: 34px;
+    padding: 0 2%;
+}
+
+th {
+    color: #cacaca;
+}
+
+tr {
+    border: 1px solid #6a6a6a;
+}
+
+.colOne {
+    color: #cacaca;
+    width: 47%;
+}
+
+.colTwo {
+    width: 25%;
+}
+
+.threedots {
+    text-align: right;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+input[type="checkbox"] {
+    width: 11px;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.triangle {
+    width: 7px;
+    margin-left: 8px;
+}
+
+.box {
+    width: 12px;
+    margin-right: 6px;
+}
+
+.search-container {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.input-container {
+    margin: 3px;
+}
+
+input[type="search"] {
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    color: #9a9a9a;
+
+    background: #444444 no-repeat 8% /10% url(./images/search.png);
+    background-size: 10px;
+    padding-left: 22%;
+ }
+
+input[type="search"]::placeholder {
+    color: #9a9a9a;
+}
